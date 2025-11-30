@@ -1,0 +1,84 @@
+/* Общие стили */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f5fff5;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(135deg, #4CAF50, #3DB2FF);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+/* Основные блоки */
+section {
+    margin: 40px 20px;
+    padding: 20px;
+}
+
+/* Списки и тексты */
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Кнопки */
+.button {
+    display: inline-block;
+    background: #3DB2FF;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #1E90FF;
+    transform: scale(1.05);
+}
+
+/* Ссылки */
+.link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Советы */
+.tip {
+    background: white;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Подвал */
+footer {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 50px 50px 0 0;
+}
